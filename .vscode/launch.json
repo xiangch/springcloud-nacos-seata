@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-AccountServiceApplication<nacos-account-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.work.account.AccountServiceApplication",
+            "projectName": "nacos-account-service",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": "--add-opens java.base/java.lang=ALL-UNNAMED"
+        }
+    ]
+}
